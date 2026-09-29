@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/sheet", "dest": "/api/fetch-sheet.js" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ]
+}
